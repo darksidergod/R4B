@@ -32,3 +32,36 @@ The basic mode was just to explain how the reverse backdoor is working. The adva
 
 -> It is advised to package from the same OS that the backdoor will be running on.
 
+Steps to package backdoor.
+
+1. Install python for windows on your linux computer from the link below.
+```
+https://www.python.org/downloads/windows/
+```
+2. Install wine on your packaging machine. 
+```
+sudo apt-get install wine 
+```
+For 32-bit systems.
+```
+sudo apt-get install wine32
+```
+3. Unpackage using Wine(Wine is not an emulator). 
+```
+root@kali:~/Downloads# wine python-2.7.15.amd64.msi 
+```
+It will install wine on your OS.
+
+4. List your hidden wine directory. By doing the following command in your root/home directory.
+```
+ls -a
+```
+It will be a ".wine" directory.
+5. Navigate to your python.exe path.
+```
+```
+
+## Example
+### Basic Implementation
+
+
