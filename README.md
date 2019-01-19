@@ -27,6 +27,8 @@ The attacker machine will show a successfull connection confirmation on the term
 
 
 ### Advanced Usage
+#### (Target Windows Machine)
 The basic mode was just to explain how the reverse backdoor is working. The advanced impelementaion focuses on how to use this program as an exploit with target computers. Packaging is the technique that we will be using to package our python code as executables which will look like any normal program that we desire. It can be packaged with a .pdf, .jpeg, .exe or any other extension. We will only need to package the backdoor since the attacker is knowingly running the listener.
 
 -> It is advised to package from the same OS that the backdoor will be running on.
+
