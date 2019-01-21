@@ -62,10 +62,13 @@ This will install pyinstaller.exe to your Python27/Scripts folder.
 wine /root/.wine/drive_c/Python27/python.exe -m pip install pyinstaller
 ```
 6. Package the file as follows to an .exe program which runs silently on a windows machine. (Run this command from the folder of your python program.
-``
+```
 wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile --noconsole
+```
 
 ## Example
 ### Basic Implementation
+
+![alt text](https://github.com/darksidergod/Reverse-Acess-Backdoor/blob/master/examples/Screenshot%20from%202019-01-19%2012-17-35.png)
 
 
