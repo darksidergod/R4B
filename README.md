@@ -48,18 +48,22 @@ sudo apt-get install wine32
 ```
 3. Unpackage using Wine(Wine is not an emulator). 
 ```
-root@kali:~/Downloads# wine python-2.7.15.amd64.msi 
+root@kali:~/Downloads# wine msiexec /i python-2.7.15.amd64.msi 
 ```
-It will install wine on your OS.
+It will install wine on your Linux.
 
 4. List your hidden wine directory. By doing the following command in your root/home directory.
 ```
 ls -a
 ```
-It will be a ".wine" directory.
-5. Navigate to your python.exe path.
+5. Enter your python.exe path for wine and install pyinstaller as follows.
+This will install pyinstaller.exe to your Python27/Scripts folder.
 ```
+wine /root/.wine/drive_c/Python27/python.exe -m pip install pyinstaller
 ```
+6. Package the file as follows to an .exe program which runs silently on a windows machine. (Run this command from the folder of your python program.
+``
+wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile --noconsole
 
 ## Example
 ### Basic Implementation
