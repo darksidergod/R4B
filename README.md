@@ -67,7 +67,7 @@ wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile
 ```
 
 ## Example
-### Basic Implementation
+### Attacker/Control Side
 
 ![alt text](https://github.com/darksidergod/Reverse-Acess-Backdoor/blob/master/examples/Screenshot%20from%202019-01-19%2012-17-35.png)
 ![alt text](https://github.com/darksidergod/Reverse-Acess-Backdoor/blob/master/examples/Screenshot%20from%202019-01-19%2012-18-05.png)
