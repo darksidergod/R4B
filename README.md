@@ -38,11 +38,11 @@ Steps to package backdoor.
 ```
 https://www.python.org/downloads/windows/
 ```
-2. Install wine on your packaging machine. 
+2(a). Install wine on your packaging machine. 
 ```
 sudo apt-get install wine 
 ```
-For 32-bit systems.
+2(b). For 32-bit systems.
 ```
 sudo apt-get install wine32
 ```
