@@ -76,6 +76,5 @@ wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe <program.py> --onefile
 
 #### Download files from target computer
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-35.png)
-![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-35.png)
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-22.png)
 ![alt text](https://github.com/darksidergod/R4B/blob/master/examples/Screenshot%20from%202019-01-19%2012-20-30.png)
