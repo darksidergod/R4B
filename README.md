@@ -1,4 +1,5 @@
-# Reverse-Acess-Backdoor
+# R4B
+(R4B stands for Reverse Acess Backdoor)
 It is a two-way python based program that can be used to gain full-control over the target. It uses a reverse connection from the target computer so that the firewall would not block it as suspicious port opening since it opens the port on the target machine itself and then sends the connection request to the attacker machine/control machine as well.
 Note - Based on python 2.7 (python 3 variant in the works !)
 
